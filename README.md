@@ -7,7 +7,7 @@ This README provides the official documentation for the **Antigravity Workspace 
 This project consists of two core components:
 
 1. **The Scaffolder**: A CLI tool for developers to initialize new client workspaces.
-2. **The Fleet Sync Extension**: A custom Antigravity UI button that pulls the latest Git updates for all workspaces.
+2. **The Sync Extension**: A custom Antigravity UI button that pulls the latest Git updates for all workspaces.
 
 ---
 
@@ -17,10 +17,10 @@ The `antigravity-create-workspace` script sets up the "Agent Brain" and the "Use
 
 ### **Installation**
 
-1. Save the scaffolding script as `scaffold.sh`.
+1. Save the scaffolding script as `antigravity-create-workspace.sh`.
 2. Move it to your global path:
 ```bash
-sudo mv scaffold.sh /usr/local/bin/antigravity-create-workspace
+sudo mv antigravity-create-workspace.sh /usr/local/bin/antigravity-create-workspace
 sudo chmod +x /usr/local/bin/antigravity-create-workspace
 
 ```
