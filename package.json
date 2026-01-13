@@ -1,0 +1,40 @@
+{
+    "name": "antigravity-workspace-sync",
+    "displayName": "Antigravity Workspace Sync",
+    "version": "1.0.0",
+    "publisher": "W3bwizart",
+    "engines": {
+        "vscode": "^1.104.0"
+    },
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "antigravity.repoSync",
+                "title": "Antigravity: Sync All Workspaces",
+                "icon": "$(sync)"
+            }
+        ],
+        "menus": {
+            "view/title": [
+                {
+                    "command": "antigravity.repoSync",
+                    "when": "view == workbench.view.explorer",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^25.0.6",
+        "@types/vscode": "1.104.0",
+        "typescript": "^5.9.3"
+    }
+}
