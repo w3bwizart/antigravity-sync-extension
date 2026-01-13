@@ -46,7 +46,7 @@ antigravity-create-workspace
 
 ## 🛰 Part 2: Fleet Sync Extension
 
-The extension provides a non-technical UI for 18 employees to sync their local files with your master GitHub repos.
+The extension provides a non-technical UI to sync their local files with your master GitHub repos.
 
 ### **Compiling and Packaging (.VSIX)**
 
