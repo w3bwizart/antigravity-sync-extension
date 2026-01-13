@@ -81,7 +81,7 @@ Once the system is deployed, your employees follow this simplified workflow:
 
 ### **3. Workspace Activation**
 
-* Open a client folder (e.g., "ALDI Office").
+* Open a client folder (e.g., "CLIENT Office").
 * Open the Agent Manager (**Cmd + L**).
 * Type **`/init`** and press Enter.
 * The **Agent Control Dashboard** will pop out on the right, showing available skills for that specific client.
